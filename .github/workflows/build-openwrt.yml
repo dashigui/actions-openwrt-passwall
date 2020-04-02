@@ -9,13 +9,13 @@
 name: Build OpenWrt x86
 
 on:
-  release:
-    types: [published]
-  push:
-    branches:
-      - dev-19.07
-    paths:
-      - '.config'
+#   release:
+#    types: [published]
+#   push:
+#     branches:
+#      - dev-19.07
+#     paths:
+#      - '.config'
 #  schedule:
 #    - cron: 0 8 * * 5
   watch:
